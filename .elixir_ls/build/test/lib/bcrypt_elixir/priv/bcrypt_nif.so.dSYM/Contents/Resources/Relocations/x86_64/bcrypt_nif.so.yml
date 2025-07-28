@@ -1,0 +1,31 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/ivanstoev/ai_chef/.elixir_ls/build/test/lib/bcrypt_elixir/priv/bcrypt_nif.so'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _nif_init, symObjAddr: 0x0, symBinAddr: 0x1400, symSize: 0x10 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _nif_init, symObjAddr: 0x0, symBinAddr: 0x1400, symSize: 0x10 }
+  - { offsetInCU: 0x68, offset: 0x68, size: 0x8, addend: 0x0, symName: _nif_init.entry, symObjAddr: 0x1120, symBinAddr: 0x6070, symSize: 0x0 }
+  - { offsetInCU: 0x262, offset: 0x262, size: 0x8, addend: 0x0, symName: _bcrypt_nif_funcs, symObjAddr: 0x1180, symBinAddr: 0x60D0, symSize: 0x0 }
+  - { offsetInCU: 0x29B, offset: 0x29B, size: 0x8, addend: 0x0, symName: _index_64, symObjAddr: 0x12B0, symBinAddr: 0x3EA0, symSize: 0x0 }
+  - { offsetInCU: 0x370, offset: 0x370, size: 0x8, addend: 0x0, symName: _bcrypt_gensalt_nif, symObjAddr: 0x10, symBinAddr: 0x1410, symSize: 0x2A0 }
+  - { offsetInCU: 0x5C3, offset: 0x5C3, size: 0x8, addend: 0x0, symName: _bcrypt_hash_nif, symObjAddr: 0x2B0, symBinAddr: 0x16B0, symSize: 0xF0 }
+  - { offsetInCU: 0x71A, offset: 0x71A, size: 0x8, addend: 0x0, symName: _bcrypt_hashpass, symObjAddr: 0x8E0, symBinAddr: 0x1CE0, symSize: 0x4F0 }
+  - { offsetInCU: 0xAEB, offset: 0xAEB, size: 0x8, addend: 0x0, symName: _bcrypt_checkpass_nif, symObjAddr: 0x3A0, symBinAddr: 0x17A0, symSize: 0x490 }
+  - { offsetInCU: 0xC61, offset: 0xC61, size: 0x8, addend: 0x0, symName: _encode_base64, symObjAddr: 0x830, symBinAddr: 0x1C30, symSize: 0xB0 }
+  - { offsetInCU: 0xCB0, offset: 0xCB0, size: 0x8, addend: 0x0, symName: _decode_base64, symObjAddr: 0xDD0, symBinAddr: 0x21D0, symSize: 0x34E }
+  - { offsetInCU: 0x26, offset: 0xEBB, size: 0x8, addend: 0x0, symName: _Blowfish_encipher, symObjAddr: 0x0, symBinAddr: 0x2520, symSize: 0x3D0 }
+  - { offsetInCU: 0x33, offset: 0xEC8, size: 0x8, addend: 0x0, symName: _Blowfish_initstate, symObjAddr: 0x7A0, symBinAddr: 0x2CC0, symSize: 0x20 }
+  - { offsetInCU: 0x52, offset: 0xEE7, size: 0x8, addend: 0x0, symName: _Blowfish_initstate.initstate, symObjAddr: 0x17EC, symBinAddr: 0x3F20, symSize: 0x0 }
+  - { offsetInCU: 0xCE, offset: 0xF63, size: 0x8, addend: 0x0, symName: _Blowfish_encipher, symObjAddr: 0x0, symBinAddr: 0x2520, symSize: 0x3D0 }
+  - { offsetInCU: 0x148, offset: 0xFDD, size: 0x8, addend: 0x0, symName: _Blowfish_decipher, symObjAddr: 0x3D0, symBinAddr: 0x28F0, symSize: 0x3D0 }
+  - { offsetInCU: 0x1BD, offset: 0x1052, size: 0x8, addend: 0x0, symName: _Blowfish_stream2word, symObjAddr: 0x7C0, symBinAddr: 0x2CE0, symSize: 0x70 }
+  - { offsetInCU: 0x28A, offset: 0x111F, size: 0x8, addend: 0x0, symName: _Blowfish_expand0state, symObjAddr: 0x830, symBinAddr: 0x2D50, symSize: 0x2F0 }
+  - { offsetInCU: 0x505, offset: 0x139A, size: 0x8, addend: 0x0, symName: _Blowfish_expandstate, symObjAddr: 0xB20, symBinAddr: 0x3040, symSize: 0x7F0 }
+  - { offsetInCU: 0x7A5, offset: 0x163A, size: 0x8, addend: 0x0, symName: _blf_key, symObjAddr: 0x1310, symBinAddr: 0x3830, symSize: 0x40 }
+  - { offsetInCU: 0x829, offset: 0x16BE, size: 0x8, addend: 0x0, symName: _blf_enc, symObjAddr: 0x1350, symBinAddr: 0x3870, symSize: 0x50 }
+  - { offsetInCU: 0x8B0, offset: 0x1745, size: 0x8, addend: 0x0, symName: _blf_dec, symObjAddr: 0x13A0, symBinAddr: 0x38C0, symSize: 0x50 }
+  - { offsetInCU: 0x937, offset: 0x17CC, size: 0x8, addend: 0x0, symName: _blf_ecb_encrypt, symObjAddr: 0x13F0, symBinAddr: 0x3910, symSize: 0x80 }
+  - { offsetInCU: 0x9CA, offset: 0x185F, size: 0x8, addend: 0x0, symName: _blf_ecb_decrypt, symObjAddr: 0x1470, symBinAddr: 0x3990, symSize: 0x80 }
+  - { offsetInCU: 0xA5D, offset: 0x18F2, size: 0x8, addend: 0x0, symName: _blf_cbc_encrypt, symObjAddr: 0x14F0, symBinAddr: 0x3A10, symSize: 0x130 }
+  - { offsetInCU: 0xB14, offset: 0x19A9, size: 0x8, addend: 0x0, symName: _blf_cbc_decrypt, symObjAddr: 0x1620, symBinAddr: 0x3B40, symSize: 0x1C9 }
+...
